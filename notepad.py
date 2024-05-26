@@ -57,11 +57,11 @@ class NotepadApp:
         self.about_menu = tk.Menu(self.menu, tearoff=0)
         self.menu.add_cascade(label="Об блокноте", menu=self.about_menu)
         self.about_menu.add_command(label="Блокнот для чайников", command=self.donothing)
-        self.about_menu.add_command(label="Версия: 1.1.1", command=self.donothing)
+        self.about_menu.add_command(label="Версия: 1.1.1-git", command=self.donothing)
         self.about_menu.add_command(label="Сделал Drel4", command=self.donothing)
         self.about_menu.add_command(label="drel@zonerkin.xyz", command=self.donothing)
         self.about_menu.add_command(label="Дата последнего обновления блокнота: 26.05.2024", command=self.donothing)
-        self.about_menu.add_command(label="Время последнего обновления блокнота: 20:38", command=self.donothing)
+        self.about_menu.add_command(label="Время последнего обновления блокнота: 20:40", command=self.donothing)
 
         # Если передан путь к файлу, открой его
         if file_path:
